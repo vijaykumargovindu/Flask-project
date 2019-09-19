@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Email Sending</title>
+</head>
+<body>
+<form action="{{url_for('verify_email')}}" method="post">
+	Enter email
+	<input type="email" name="email" placeholder="Enter email"><br>
+	<input type="submit" value="send">
+</form>
+</body>
+</html>
